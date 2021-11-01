@@ -82,8 +82,8 @@ public class MainActivity extends Activity {
                         tflite.run(tensorImage.getBuffer(), probabilityBuffer.getBuffer());
                     }
                     float[] tmp = probabilityBuffer.getFloatArray();
-                    String s = String.format("%f %f %f %f %f %f %f %f %f %f", tmp[0], tmp[1], tmp[2], tmp[3], tmp[4], tmp[5],
-                                                                                tmp[6], tmp[7], tmp[8], tmp[9]);
+                    String s = String.format("%f %f %f %f %f %f %f %f %f %f", tmp[9], tmp[0], tmp[1], tmp[2], tmp[3], tmp[4], 
+                                                                             tmp[5], tmp[6], tmp[7], tmp[8]);
                     textView.setText(s);
                 }
                 catch (IOException e){
