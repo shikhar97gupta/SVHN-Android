@@ -1,2 +1,4 @@
 # SVHN-Android
-Model trained on SVHN dataset and deployed on Android
+Digit Recognizer trained using SVHN dataset and deployed on Android.
+
+
